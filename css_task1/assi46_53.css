@@ -1,0 +1,230 @@
+/*talef-1-*/
+/*
+div{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: #eee;
+    color: orangered;
+    display: flex;
+    justify-content: center;
+    box-shadow:
+    6px 0px 0 0 orangered,
+    -6px -0px 0 0 #03a9f4;
+    align-items: center;
+    margin: 20px auto;
+    font-size: 25px;
+}
+*/
+/*--------------------------------------------------------------------------*/
+/*talef-2-*/
+/*
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    align-content: space-between;
+}
+.parent div{
+    background-color: rgb(253, 41, 41);
+    padding: 10px;
+    margin: 10px;
+    width: calc((100% - 120px)/3);
+    text-align: center;
+    color: white;
+}
+*/
+/*---------------------------------------------------------------------------------------*/
+/*talef-3-*/
+/*
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    align-items: flex-start;
+}
+.parent div{
+    background-color: rgb(71, 97, 131);
+    padding: 10px;
+    width: calc((100% - 120px)/3);
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    order: 6;
+    align-self: flex-end;
+}
+.two{
+    order: 5;
+    height: 130px;
+    
+}
+.three{
+    order: 2;
+}
+.four{
+    order: 3;
+    height: 130px; 
+}
+.five{
+    order: 4;
+    height: 130px;
+}
+.six{
+    order: 1;
+    height: 130px;
+}
+*/
+/*----------------------------------------------------------------------------------*/
+/*talef-4-*/
+/*
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.parent div{
+    background-color: #009688;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    height: calc(280px / 3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.one{
+    width: 30px;
+    align-self: flex-end;
+}
+.two{
+    width: 300px;
+    align-self: flex-start;
+}
+.three{
+    width: 30px;
+    align-self: flex-end;
+}
+*/
+/*-------------------------------------------------------------------------------------*/
+/*taklef-5-*/
+/*
+.parent{
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 20px auto;
+    display: flex;
+    padding: 10px;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.parent div{
+    padding: 10px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 130px;
+    width: 70px;
+}
+.one{
+    background-color: orange;
+}
+.two{
+    background-color: rgb(137, 204, 69);
+    align-self: flex-end;
+}
+.three{
+    background-color: chocolate;
+}
+.four{
+    order: -1;
+    background-color: blueviolet;
+    align-self: flex-end;
+}
+*/
+/*----------------------------------------------------------------------------------------*/
+/*taklef-6-*/
+:root {
+    --main-padding: 10px;
+    --main-margin: 10px;
+    --main-background: #eee;
+    --background-color: rgb(223 223 223);;
+}
+.page {
+    
+    background-color: var(--main-background);
+}
+.header {
+    padding: var(--main-padding);
+    display: flex;
+    justify-content: space-between;
+}
+.logo {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+    margin-right: 20px;
+    width: 100px;
+}
+.links {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+    list-style: none;
+    margin: 0;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.links li {
+    margin-left: 20px;
+}
+.main-area {
+    display: flex;
+    justify-content: space-between;
+}
+.content {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+    width: 100%;
+    margin-left: var(--main-margin);
+    margin-right: var(--main-margin);
+    height: 400px;
+}
+.sidebar {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+    margin-left: var(--main-margin);
+    margin-right: var(--main-margin);
+    width: calc(100% /2);
+    height: 400px;
+}
+.footer {
+    background-color: var(--background-color);
+    padding: var(--main-padding);
+    margin: var(--main-margin);
+    display: flex;
+    justify-content: space-between;
+}

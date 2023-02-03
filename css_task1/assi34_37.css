@@ -1,0 +1,87 @@
+/*taklef-1-*/
+/*
+div{
+    width: 300px;
+    height: 60px;
+    margin: 15px auto;
+    background-color: #eee;
+    text-align: center;
+}
+div:empty{
+    background-color: red;
+*/
+/*-----------------------------------------------------------------------------*/
+/*taklef-2-*/
+/*
+div{
+    background-color: #eee;
+    margin: 20px auto;
+    width: 400px;
+    padding: 40px;
+    text-align: center;
+    
+}
+div::first-letter{
+    display: inline-block;
+    background-color: red;
+    margin-top: -18px;
+    margin-left: -50px;
+    color: white;
+    padding: 20px 10px;
+    float: left;
+}
+*/
+/*-----------------------------------------------------------------------------------------*/
+/*talef-3-*/
+/*
+p{
+    background-color: #eee;
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    border-left: 5px solid #e10e55;
+}
+p::before{
+    content: attr(data-person);
+    background-color: #eee;
+    position: absolute;
+    left: -130px;
+    width: 50px;
+    padding: 18px;
+    top: 0px;
+    text-align: center;
+    font-size: 19px;
+}
+p::after{
+    content: "";
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 10px;
+    border-color: transparent #e10e55 transparent transparent;
+    left: -25px;
+    top: 33%;
+}
+*/
+/*----------------------------------------------------------------------------------------*/
+/*taklef-4-*/
+p{
+    counter-increment: members-counter;
+    position: relative;
+    background-color: #eee;
+    border-right: 5px solid #f53b03;
+    width: 600px;
+    padding: 20px;
+    margin: 10px auto;
+}
+p::after{
+    content: counter(members-counter);
+    position: absolute;
+    background-color: #f53b03;
+    padding: 20px;
+    left: -37px;
+    top: 0px;
+    color: white;
+}

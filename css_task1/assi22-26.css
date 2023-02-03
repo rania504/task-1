@@ -1,0 +1,53 @@
+/*talef-1-*/
+div{
+    background-color: white;
+    border: 5px solid orange;
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+.pp p{
+    border: inherit;
+    padding: inherit;
+    background-color: #eee;
+}
+/*----------------------------------------------------------------------------*/
+/*taklef-2-*/
+.one{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    text-transform: capitalize;
+}
+.two{
+    font-family: 'Cairo', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    text-transform: capitalize;
+}
+.three{
+    font-family: 'Jomhuria', cursive;
+    font-size: 40px;
+    font-weight: 400;
+    text-align: center;
+    text-transform: capitalize;
+}
+/*------------------------------------------------------------------------------------*/
+/*taklef-3-*/
+html{
+    font-size: 20px;
+}
+.one1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.two2{
+    font-size: 2rem;
+    text-transform: capitalize;
+}
+.three3{
+    font-size: 1.5rem;
+    text-transform: capitalize;
+}

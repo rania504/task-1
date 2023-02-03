@@ -1,0 +1,60 @@
+/*taklef-1-*/
+.shadow{
+    color: black;
+    font-size: 50px;
+    text-shadow: 2px 2px 0 orange, 4px 3px 0 blue, 6px 4px 0 plum;
+}
+/*-----------------------------------------------------------------------------------*/
+/*talef-2-*/
+.one{
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-size: 40px;
+    text-align: center;
+}
+.two{
+    text-align: center;
+    font-size: 40px;
+    text-transform: capitalize;
+}
+.three{
+    text-transform: lowercase;
+    font-size: 40px;
+    text-align: center;
+}
+/*--------------------------------------------------------------------------------------*/
+/*taklef-3-*/
+div{
+    background-color: #eee;
+    padding: 20px;
+    width: 400px;
+    font-size: 20px;
+
+}
+div{
+    overflow: hidden;
+    white-space: nowrap;
+}
+div{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+/*------------------------------------------------------------------------------------*/
+/*taklef-4-*/
+a{
+    background-color: rgb(42, 161, 146);
+    width: 300px;
+    height: 150px;
+    display: block;
+    text-align: center;
+    font-size: 70px;
+    border-bottom: 10px solid #1b476a;
+    text-decoration: none;
+    padding-top: 90px;
+    color: white;
+    text-transform: capitalize;
+    margin-left: 40%;
+}
+
+

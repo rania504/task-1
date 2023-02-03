@@ -1,0 +1,40 @@
+/*taklef-1-*/
+div{
+    display: inline-block;
+    padding: 30px;
+    margin: 10px;
+    background-color: #eee;
+    border-width: 5px;
+    outline: 5px solid black;
+}
+.shape1{
+    border: 5px solid red;
+}
+.shape2{
+    border-style: solid;
+    border-color: blue green;
+}
+.shape3{
+    border-style: dashed;
+    border-color: red green blue yellow;
+}
+/*--------------------------------------------------------------------------------------------*/
+/*talef-2-*/
+p{
+    width: 400px;
+    background-color: #eee;
+    padding: 20px;
+}
+.shape11 span{
+    border-left: 5px solid rgb(240, 84, 110);
+    padding: 10px;
+    display: inline-block;
+}
+.shape12{
+    visibility: hidden;
+}
+.shape13 span{
+    border-left: 5px solid rgb(55, 231, 193);
+    padding: 10px;
+    display: inline-block;
+}

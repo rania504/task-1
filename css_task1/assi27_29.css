@@ -1,0 +1,48 @@
+.parent{
+    background-color: rgb(213, 214, 216);
+    
+    width: 800px;
+}
+.parent div{
+    background-color: #eee;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin: 15px 0 15px 15px;
+    float: left;
+}
+.fw{
+    width: calc(100% - 30px);
+}
+
+.onee{
+    width: calc((100% - 60px) /3);
+}
+.twoo{
+    width: calc((100% - 45px) /2);
+}
+.three{
+    width: calc((100% - 75px) /4);
+}
+.clear{
+    clear: both;
+}
+/*------------------------------------------------------------------------------------*/
+/*taklef_2_*/
+.normal,
+.one,
+.two {
+    margin: 20px auto;
+    width: 300px;
+    font-weight: bold;
+    font-size: 1rem;
+    padding: 20px;
+    background-color: rgb(189, 186, 186);/* Get The Background From Image */
+    color: black;
+}
+.one{
+    background-color: rgb(189 186 186 /0.1); 
+}
+.two{
+    opacity: 0.1;
+}
