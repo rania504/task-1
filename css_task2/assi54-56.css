@@ -1,0 +1,89 @@
+/*taklef-1-*/
+/*
+div{
+    width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    height: 50px;
+    text-align: center;
+    letter-spacing: 4px;
+    font-size: 40px;
+    font-weight: bold;
+    background-color: #eee;
+    border-left: 8px solid rgb(255, 125, 78);
+    border-right: 8px solid rgb(197, 21, 197);
+    position: relative;
+}
+div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    left: 0;
+    top: 0px;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 125, 78) 20%,
+        rgb(7, 197, 245) 20%,
+        rgb(7, 197, 245) 40%,
+        rgb(25, 163, 59) 40%,
+        rgb(25, 163, 59) 60%,
+        rgb(243, 61, 115) 60%,
+        rgb(243, 61, 115) 80%,
+        rgb(197, 21, 197) 80%
+    );
+}
+div::before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 8px;
+    bottom: 0;
+    left: 0;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 125, 78) 20%,
+        rgb(7, 197, 245) 20%,
+        rgb(7, 197, 245) 40%,
+        rgb(25, 163, 59) 40%,
+        rgb(25, 163, 59) 60%,
+        rgb(243, 61, 115) 60%,
+        rgb(243, 61, 115) 80%,
+        rgb(197, 21, 197) 80%
+    );
+}
+div::first-letter{
+    color: rgb(255, 125, 78);
+}
+*/
+/*------------------------------------------------------------------------------------------*/
+/*taklef-2-*/
+input{
+    border: none;
+    caret-color: red;
+    background-color: #eee;
+    outline: none;
+    font-size: 25px;
+    width: 600px;
+}
+div{
+    position: relative;
+    width: 600px;
+    background-color: #eee;
+    margin: 20px auto;
+    padding: 25px;
+}
+div::after{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 5px;
+    left: 0;
+    bottom: 0;
+    background-image: linear-gradient(
+        to right,
+        rgb(255, 125, 78) 50%,
+        rgb(25, 180, 154) 50%,
+        rgb(25, 180, 154) 100%
+    );
+}
