@@ -1,0 +1,56 @@
+*{
+    font-size: 30px;
+}
+/*taklef-1-*/
+/*
+div.main.red{
+    color: red;
+}
+*/
+/*----------------------------------------------*/
+/*taklef-2-*/
+/*
+.parent div:nth-child(2){
+    color: red;
+}
+*/
+/*--------------------------------------------------*/
+/*taklef-3-*/
+/*
+.parent div.baby:only-child{
+    color: red;
+}
+*/
+/*------------------------------------------------------------*/
+/*taklef-4-*/
+/*
+div[title]:nth-last-of-type(n+4) {
+    color: red;
+}
+*/
+/*---------------------------------------------------------*/
+/*taklef-5-*/
+/*
+div:not(.no-need)>p+div[title="Elzero"]:not(.no-need):last-child {
+    color: red;
+}
+*/
+/*------------------------------------------------------------------------*/
+/*taklef-6-*/
+/*
+div:not(.no-need) div:nth-last-of-type(2){
+    color: red;
+}
+*/
+/*---------------------------------------------------------*/
+/*taklef-7-*/
+/*
+div:first-of-type div:nth-last-of-type(2){
+    color: red;
+}
+*/
+/****************************************************************-/
+/*taklef-8-*/
+div *:not(:nth-child(4)):not(:nth-child(6)):not(:nth-child(7)):not(:first-child){
+    color: red;
+}

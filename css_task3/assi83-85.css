@@ -1,0 +1,89 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+/*taklef-1-*/
+/*
+@media print{
+    .assign-one{
+        font-size: 40px;
+    }
+}
+*/
+/*-----------------------------------------------------------------------*/
+/*taklef-2-*/
+/*
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+.parent div{
+    background-color: #eee;
+    width: calc(25% - 10px);
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.parent h3{
+    color: rgb(69, 185, 185);
+    margin-bottom: 5px;
+}
+@media (min-width: 768px) and (max-width: 991px) {
+    .parent h3{
+        color: red;
+    }
+    .parent div{
+        width: calc(50% - 10px);
+    }
+}
+@media (max-width: 767px) {
+    .parent h3{
+        color: black;
+    }
+    .parent div{
+        width: 100%;
+    }
+}
+*/
+/*-------------------------------------------------------------------------------------*/
+/*taklef-3-*/
+.parent{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    
+}
+.parent div{
+    width: 100%;
+    background-color: #eee;
+    padding: 10px 0px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+@media (min-width: 768px) {
+    .parent div {
+        width: calc((100% / 3) - 7px);
+    }
+    .parent > div:first-child {
+        width: calc(100% - 10px);
+    }
+    .parent div h3 {
+        color: red;
+    }
+}
+@media (min-width: 992px){
+    .parent div {
+        width: calc((100% / 2) - 20px);
+        margin: 5px;
+    }
+    .parent > div:first-child {
+        width: calc(100% - 25px);
+    }
+    .parent > div:last-child {
+        width: calc(100% - 25px);
+    }
+    .parent div h3 {
+        color: rgb(69, 185, 185);
+    }
+}
